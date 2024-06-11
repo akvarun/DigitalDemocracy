@@ -1,12 +1,5 @@
 import React from 'react'
 import { useState } from 'react';
-<<<<<<< HEAD
-import { Link, Navigate } from 'react-router-dom';
-
-function home () {
-  const [rollnumber, setRollNumber] = useState('');
-  const [redirect, SetRedirect] = useState('False');
-=======
 import { Link, Navigate, useNavigate } from 'react-router-dom';
 import axios from 'axios';
 
@@ -19,24 +12,12 @@ function home () {
   const househeadg ="kat"
   /*const [navigate,setNavigate] = useState(false);*/
   const navigate = useNavigate();
->>>>>>> d2bcc76 (defined routes and initialised the schema)
   const handleInputChange = (event) => {
     setRollNumber(event.target.value);
   };
   const handleVoteClick = ()=>{
     if(rollnumber.length!=7){
       alert('Enter a valid Roll number');
-<<<<<<< HEAD
-      event.preventDefault();
-      return;
-    }
-    console.log('roll no:',rollnumber);
-    setRollNumber(''); 
-    SetRedirect(true);
-  }
-  if(redirect){
-    return <Navigate to="/HeadVote"/>
-=======
     console.log('roll no:',rollnumber);
     setRollNumber('');
     return;
@@ -49,7 +30,6 @@ function home () {
       {navigate&&<Navigate to="/HeadVote"/>}
     */
 
->>>>>>> d2bcc76 (defined routes and initialised the schema)
   }
   return (
     <div>
@@ -62,11 +42,7 @@ function home () {
         <input type='text' class="form-control mt-4" id="inputRollno"  placeholder="Enter your roll number" value={rollnumber} onChange={handleInputChange}/>
       </div>
       <div class="d-grid gap-2 d-sm-flex justify-content-sm-center mt-3">
-<<<<<<< HEAD
-        <button type='button' className='btn btn-primary btn-lg px-4 gap-3' onClick={handleVoteClick}>Vote</button>
-=======
         <button type='button' className='btn btn-primary btn-lg px-3 gap-3' onClick={handleVoteClick}>Vote</button>
->>>>>>> d2bcc76 (defined routes and initialised the schema)
       </div>
     </div>
   </div>
