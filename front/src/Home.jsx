@@ -5,24 +5,20 @@ import axios from 'axios';
 
 function home () {
   const [rollnumber, setRollNumber] = useState('');
-  const headboy = "varun"
-  const headgirl = "swas"
-  const house= "jupiter"
-  const househeadb = "debug"
-  const househeadg ="kat"
-  /*const [navigate,setNavigate] = useState(false);*/
   const navigate = useNavigate();
   const handleInputChange = (event) => {
     setRollNumber(event.target.value);
   };
   const handleVoteClick = ()=>{
-    if(rollnumber.length!=7){
+    if(rollnumber.length!=8){
       alert('Enter a valid Roll number');
     console.log('roll no:',rollnumber);
     setRollNumber('');
     return;
+
     }
-    navigate('/HeadVote',{state:{rollnumber}})
+    navigate('/HeadBoy',{state:{rollnumber:rollnumber}})
+
     /*setNavigate(true)
     axios.post("http://localhost:3001/votes",{rollno: rollnumber,headboy:headboy,headgirl:headgirl,house:house,houseboy:househeadb,housegirl:househeadg})
     .then(result => console.log(result))
