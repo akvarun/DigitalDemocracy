@@ -14,18 +14,19 @@ const headVote = () => {
   return (
     <div class="album py-5 bg-light">
     <div class="container">
-        <h1>School Assistant Head Boy</h1>
-
+      <div class="text-center">
+        <h1>Assistant School Head Boy</h1>
+        </div>
       <div class="row mt-5">
         <div class="col-md-4">
           <div class="card mb-4 shadow-sm">
           <img 
-        className="card-img-top" src="./src/assets/sharpner.jpg" alt="Sharpner sigil" width="100%" height="225" />
+        className="card-img-top" src="./src/assets/11. Walkie talkie.png" alt="Sharpner sigil" width="100%" height="225" />
             <div class="card-body">
-              <h3 class="card-text">Swas</h3>
+              <h3 class="card-text">KAVEEN S</h3>
               <div class="d-flex justify-content-between align-items-center">
                 <div class="btn-group">
-                  <button type="button" class="btn btn-sm btn-outline-secondary" onClick={()=> handleVoteClick('swas')}>Vote</button>
+                  <button type="button" class="btn btn-sm btn-outline-secondary" onClick={()=> handleVoteClick('KAVEEN S')}>Vote</button>
                 </div>
               </div>
             </div>
@@ -34,12 +35,12 @@ const headVote = () => {
         <div class="col-md-4">
           <div class="card mb-4 shadow-sm">
           <img 
-        className="card-img-top" src="./src/assets/pencil.jpg" alt="Sharpner sigil" width="100%" height="225" />
+        className="card-img-top" src="./src/assets/12. ID card.png" alt="Sharpner sigil" width="100%" height="225" />
             <div class="card-body">
-              <p class="card-text">Swathy</p>
+              <h3 class="card-text">MUKESH KUMAR K P</h3>
               <div class="d-flex justify-content-between align-items-center">
                 <div class="btn-group">
-                  <button type="button" class="btn btn-sm btn-outline-secondary" onClick={()=>handleVoteClick('swathy')}>Vote</button>
+                  <button type="button" class="btn btn-sm btn-outline-secondary" onClick={()=>handleVoteClick('MUKESH KUMAR K P')}>Vote</button>
                 </div>
               </div>
             </div>
@@ -48,12 +49,12 @@ const headVote = () => {
         <div class="col-md-4">
           <div class="card mb-4 shadow-sm">
           <img 
-        className="card-img-top" src="./src/assets/eraser1.jpeg" alt="Sharpner sigil" width="100%" height="225" />
+        className="card-img-top" src="./src/assets/13. CCTV.png" alt="Sharpner sigil" width="100%" height="225" />
             <div class="card-body">
-              <p class="card-text">priya</p>
+              <h3 class="card-text">SUJITH C</h3>
               <div class="d-flex justify-content-between align-items-center">
                 <div class="btn-group">
-                  <button type="button" class="btn btn-sm btn-outline-secondary" onClick={()=>handleVoteClick('priya')}>Vote</button>
+                  <button type="button" class="btn btn-sm btn-outline-secondary" onClick={()=>handleVoteClick('SUJITH C')}>Vote</button>
                 </div>
               </div>
             </div>

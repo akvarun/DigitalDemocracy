@@ -28,8 +28,15 @@ function home () {
 
   }
   return (
-    <div>
+    <div className='album py-3 bg-light'>
 <div class="px-4 py-5 my-5 text-center">
+<img 
+          src="./src/assets/School logo.png" 
+          alt="School logo" 
+          className="img-fluid mb-4"
+          style={{ maxWidth: '275px' }} 
+        />
+
     <h1 class="display-5 fw-bold text-body-emphasis">KMC Elections</h1>
     <div class="col-lg-6 mx-auto">
       <p class="lead mb-5">Voting is a powerful tool in your hands. Your vote shapes the future. Think carefully and choose wisely before casting your vote. Make your voice heard for the leader you believe in.</p>
