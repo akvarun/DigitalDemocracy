@@ -1,6 +1,6 @@
 ## DigitalDemocracy
 
-**DigitalDemocracy** is a robust and user-friendly school voting system developed using the MERN stack. It enables students to vote for their peers efficiently and securely. This project is actively used by over 1000 students and is maintained by myself. DigitalDemocracy aims to streamline the voting process within the school community.
+**DigitalDemocracy** is a robust and user-friendly school voting system. It enables students to vote for their peers efficiently and securely. This project is actively used by over 1000 students and is maintained by myself. DigitalDemocracy aims to streamline the voting process within the school community.
 
 ## Getting Started
 
