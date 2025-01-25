@@ -19,7 +19,7 @@ const headVote = () => {
         <div class="col-md-4">
           <div class="card mb-4 shadow-sm">
           <img 
-        className="card-img-top" src="./src/assets/1. Clock.png" alt="Sharpner sigil" width="100%" height="225" />
+        className="card-img-top" src="./src/assets/1. Clock.png" alt="Sharpner " width="100%" height="225" />
             <div class="card-body">
               <h3 class="card-text">AJAY N N</h3>
               <div class="d-flex justify-content-between align-items-center">
