@@ -40,7 +40,7 @@ function home() {
             <input type='text' class="form-control mt-4" id="inputRollno" placeholder="Enter your roll number" value={rollnumber} onChange={handleInputChange} />
           </div>
           <div class="d-grid gap-2 d-sm-flex justify-content-sm-center mt-3">
-            <button type='button' className='btn btn-primary btn-lg px-3 gap-3' onClick={handleVoteClick}>Vote</button>
+            <button type='button' className='btn btn-primary btn-lg px-3 gap-3' onClick={handleVoteClick}>Vote Here</button>
           </div>
         </div>
       </div>
