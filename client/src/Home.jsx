@@ -32,7 +32,7 @@ function home() {
       <div class="px-4 py-5 my-5 text-center">
 
 
-        <h1 class="display-5 fw-bold text-body-emphasis">Digital Democracy</h1>
+        <h1 class="display-5 fw-bold text-body-emphasis">Digital Democracy - Choose the right</h1>
         <div class="col-lg-6 mx-auto">
           <p class="lead mb-5">Voting is a powerful tool in your hands. Your vote shapes the future. Think carefully and choose wisely before casting your vote. Make your voice heard for the leader you believe in.</p>
           <h5>Enter your roll number to start your voting</h5>
